@@ -60,12 +60,11 @@ public class Q4AtmSimulator {
     }
 	
     public static void main(String[] args) {
-        int choice;
         while(true) {
             System.out.println("----- MINI ATM SIMULATOR -----");
             System.out.println("1. Deposit\n2. Withdraw\n3. Check Balance\n4. Change PIN\n5. Exit");
             System.out.print("Enter option: ");
-            choice = sc.nextInt();
+            int choice = sc.nextInt();
             if(choice == 5) {
                 System.out.println("Exiting....\n");
                 break; 
